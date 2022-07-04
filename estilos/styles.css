@@ -15,7 +15,7 @@ label {
 
 h1, #description {
   text-align: center;
-  margin: 1em auto;
+  margin: 1em 1em;
 }
 
 form {
