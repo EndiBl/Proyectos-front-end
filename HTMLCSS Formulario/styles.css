@@ -1,0 +1,72 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #00304E;
+  color: #f5f6f7;
+  font-family: sans-serif;
+  font-size: 17px;
+}
+
+label {
+  display: block;
+  margin: 7px 0;
+}
+
+h1, #description {
+  text-align: center;
+  margin: 1em auto;
+}
+
+form {
+  margin: 0 auto;
+  max-width: 700px;
+  min-width: 300px;
+  width: 80vw;
+  padding-bottom: 15px;
+}
+
+fieldset {
+  padding: 15px 0;
+  border: 0;
+}
+
+input, select, textarea {
+  width: 100%;
+  margin: 10px 0 0 0;
+  font-size: 15px;
+  min-height: 2.5em;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.7em 0 0;
+  vertical-align: middle
+}
+
+input, textarea {
+  background-color: #00416A;
+  border: 1px solid #00416A;
+  color: #ffffff;
+}
+
+::placeholder {
+  color: #D3E4FC
+}
+
+button[name="buttonSubmit"] {
+  display: block;
+  margin: 1em auto;
+  width: 30vw;
+  height: 7vh;
+  font-size: 18px;
+  min-width: 250px;
+}
+
+button[name="buttonSubmit"]:active {
+  background-color: #D3E4FC;
+}
+
+.textarea {
+  margin-top: 13px;
+}
